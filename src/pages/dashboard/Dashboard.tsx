@@ -1,12 +1,13 @@
 import { Box, Button, Container } from '@mui/material'
 import React from 'react'
+import UseAddForm from '../../components/addForm/UseAddForm'
 import UseTodoGrid from '../../components/grid/UseTodoGrid'
 
 const Dashboard = () => {
   return (
-    <Container>
+    <Container maxWidth="xl"  sx={{ p: 4, }}>
       <Box>
-      <Button variant="contained">Add New Todo</Button>
+        <UseAddForm />
       </Box>
 
       <Box>
