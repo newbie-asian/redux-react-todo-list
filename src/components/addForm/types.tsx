@@ -7,7 +7,7 @@ export interface IStateTodo {
     status: string;
 }
 
-export interface IPropsAddForm {
+export interface IPropsAddFormAndDialog {
     handleShowModal: (isOpen: boolean) => void;
     handleInputChange: (evt: React.ChangeEvent<HTMLInputElement>) => void;
     handleInputDateChange: (newValue: Date | null) => void;

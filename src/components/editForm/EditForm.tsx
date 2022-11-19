@@ -1,6 +1,9 @@
 import React from 'react'
+import { IPropsEditForm } from './types'
 
-const EditForm = () => {
+const EditForm = (props: IPropsEditForm) => {
+  const { showModal, handleShowModal, rowData } = props;
+  
   return (
     <div>EditForm</div>
   )
